@@ -1,3 +1,21 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+  font-family: "Pangram";
+  src: url("../src/assets/fonts/Pangram-Regular.woff2"),
+    url("../src/assets/fonts/Pangram-Regular.woff"),
+    url("../src/assets/fonts/Pangram-Regular.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Pangram-Bold";
+  src: url("../src/assets/fonts/Pangram-Bold.woff2"),
+    url("../src/assets/fonts/Pangram-Bold.woff"),
+    url("../src/assets/fonts/Pangram-Bold.ttf");
+  font-style: normal;
+  font-weight: normal;
+}
