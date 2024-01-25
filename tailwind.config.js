@@ -14,6 +14,9 @@ export default {
       colors: {
         primary: "#FE553E",
       },
+      fontSize: {
+        "9xl": "182px",
+      },
     },
   },
   plugins: [],
