@@ -1,6 +1,6 @@
 const Hero = () => (
-  <section className="container mx-auto">
-    <div className="grid grid-cols-12 mx-16 text-primary items-end">
+  <section className="container mx-auto py-28">
+    <div className="grid grid-cols-12 mx-16 text-primary">
       <h1 className="col-span-8 text-9xl font-heading leading-[8.75rem]">
         Frontend Dev.
       </h1>
