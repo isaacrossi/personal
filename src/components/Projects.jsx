@@ -9,24 +9,26 @@ const Projects = () => (
       </h2>
     </div>
     <div className="grid grid-cols-12 mx-16 text-primary">
-      <div className="col-span-6">
+      <div className="col-span-4">
         <div className="flex">
           <img src={vstats} />
-          <span className="text-4xl font-heading">/01</span>
+          <span className="ml-4 text-4xl font-heading">/01</span>
         </div>
-        <h4>Vstats</h4>
-        <p className="w-96">
+        <h4 className="text-2xl font-heading mt-6">Vstats</h4>
+        <p className="w-96 text-xl mt-2">
           A web app that compares two A league players statistics in a nice way.
         </p>
       </div>
 
-      <div className="col-span-5 col-start-9 mt-40">
-        <div className="flex justify-between">
-          <span className="text-4xl font-heading">/02</span>
+      <div className="col-span-5 col-end-13 mt-16">
+        <div className="flex justify-end">
+          <span className="mr-4 text-4xl font-heading">/02</span>
           <div>
             <img src={billow} />
-            <h4>Billow Magazine</h4>
-            <p className="w-80">A website for a surf and travel magazine.</p>
+            <h4 className="text-2xl font-heading mt-6">Billow Magazine</h4>
+            <p className="text-xl w-80 mt-2">
+              A website for a surf and travel magazine.
+            </p>
           </div>
         </div>
       </div>
