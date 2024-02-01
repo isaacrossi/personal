@@ -20,6 +20,13 @@
   font-weight: normal;
 }
 
-h3 {
-  grid-column-start: 6;
+/* Hiding scrollbar for Chrome, Safari and Opera */
+#content::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hiding scrollbar for IE, Edge and Firefox */
+#content {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE and Edge */
 }
