@@ -14,10 +14,17 @@ const Musings = () => {
 
   return (
     <section className="py-28">
-      <div className="container container mx-auto">
-        <h2 className="mb-10 mx-16 text-6xl font-heading text-primary">
-          Latest Musings
-        </h2>
+      <div className="container mx-auto">
+        <div className="flex justify-between items-center mx-16">
+          <h2 className="mb-10 text-6xl font-heading text-primary">
+            Latest Musings
+          </h2>
+          <menu>
+            <button className="font-heading text-primary border-2 px-4 py-1.5 border-primary rounded-full">
+              See all
+            </button>
+          </menu>
+        </div>
       </div>
 
       <div className="px-4 overflow-x-hidden">
@@ -26,27 +33,27 @@ const Musings = () => {
           className="keen-slider text-primary overflow-visible"
         >
           <div className="keen-slider__slide">
-            <img src={blogexample} />
+            <img src={blogexample} className="rounded-2xl" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide">
-            <img src={blogexample} className="w-xl" />
+            <img src={blogexample} className="rounded-2xl" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide">
-            <img src={blogexample} />
+            <img src={blogexample} className="rounded-2xl" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide ">
-            <img src={blogexample} />
+            <img src={blogexample} className="rounded-2xl" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide ">
-            <img src={blogexample} />
+            <img src={blogexample} className="rounded-2xl" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide ">
-            <img src={blogexample} />
+            <img src={blogexample} className="rounded-2xl" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
         </div>
