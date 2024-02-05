@@ -2,7 +2,7 @@ import vstats from "/src/assets/vstats.png";
 import billow from "/src/assets/billow.png";
 
 const Projects = () => (
-  <section className="container container mx-auto py-28">
+  <section className="container container mx-auto mt-40">
     <div>
       <h2 className="mb-10 mx-16 text-6xl font-heading text-primary">
         Recent Work

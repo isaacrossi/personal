@@ -17,6 +17,7 @@ export default {
       },
       fontSize: {
         "9xl": "182px",
+        "8xl": "81px",
       },
     },
   },

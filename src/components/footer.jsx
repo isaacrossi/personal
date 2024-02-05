@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 
 const Footer = () => (
-  <footer className="pt-8 bg-primary pb-10">
+  <footer className="pt-8 bg-primary pb-10 mt-40">
     <div className="container mx-auto ">
       <div className="mx-16 grid grid-cols-12 text-white">
         <div className="col-span-4 w-80">

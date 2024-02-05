@@ -1,5 +1,5 @@
 const Hero = () => (
-  <section className="container mx-auto py-28">
+  <section className="container mx-auto mt-40">
     <div className="grid grid-cols-12 mx-16 text-primary">
       <h1 className="col-span-8 text-9xl font-heading leading-[8.75rem]">
         Frontend Dev.
