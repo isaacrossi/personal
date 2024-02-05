@@ -1,17 +1,15 @@
-import { Hero } from "./components/Hero";
-import { Header } from "./components/header";
-import { Projects } from "./components/Projects";
-import { Musings } from "./components/Musings";
-import { Footer } from "./components/footer";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
+import { Index } from "./pages/Index";
+import { Musings } from "./pages/Musings";
 
 const App = () => (
-  <>
-    <Header />
-    <Hero />
-    <Projects />
-    <Musings />
-    <Footer />
-  </>
+  <BrowserRouter>
+    <Routes>
+      <Route path="/" element={<Index />} />
+      <Route path="/musings" element={<Musings />} />
+    </Routes>
+  </BrowserRouter>
 );
 
 export default App;

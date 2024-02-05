@@ -6,7 +6,9 @@ const Header = () => (
     <Logo className="ml-3" />
     <nav className="mt-3 font-heading text-primary">
       <Link className="mr-10">Work</Link>
-      <Link className="mr-10">Musings</Link>
+      <Link to={"/musings"} className="mr-10">
+        Musings
+      </Link>
       <Link>Contact</Link>
     </nav>
   </header>
