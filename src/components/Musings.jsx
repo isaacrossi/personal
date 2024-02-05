@@ -33,27 +33,27 @@ const Musings = () => {
           className="keen-slider text-primary overflow-visible"
         >
           <div className="keen-slider__slide">
-            <img src={blogexample} className="rounded-2xl" />
+            <img src={blogexample} className="rounded-2xl shadow" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide">
-            <img src={blogexample} className="rounded-2xl" />
+            <img src={blogexample} className="rounded-2xl shadow" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide">
-            <img src={blogexample} className="rounded-2xl" />
+            <img src={blogexample} className="rounded-2xl shadow" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide ">
-            <img src={blogexample} className="rounded-2xl" />
+            <img src={blogexample} className="rounded-2xl shadow" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide ">
-            <img src={blogexample} className="rounded-2xl" />
+            <img src={blogexample} className="rounded-2xl shadow" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
           <div className="keen-slider__slide ">
-            <img src={blogexample} className="rounded-2xl" />
+            <img src={blogexample} className="rounded-2xl shadow" />
             <h4 className="text-2xl font-heading mt-6">A little intro</h4>
           </div>
         </div>

@@ -30,3 +30,7 @@
   scrollbar-width: none; /* Firefox */
   -ms-overflow-style: none; /* IE and Edge */
 }
+
+body {
+  background-color: rgb(248 250 252);
+}
